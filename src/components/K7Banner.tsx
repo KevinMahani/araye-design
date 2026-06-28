@@ -5,10 +5,10 @@ export default function K7Banner() {
       style={{ backgroundColor: '#2D4A3E', direction: 'ltr' }}
     >
       <span className="text-xs text-white/70 font-sans tracking-wide">
-        Built by <span className="text-white font-medium">K7 Studio</span>
+        Built by <a href="https://k7webstudio.com" target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-white/70 transition-colors">K7 Studio</a>
       </span>
       <a
-        href="/packages.pdf"
+        href="/Package-public.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="text-xs text-white/80 uppercase tracking-widest hover:text-white transition-colors flex items-center gap-1.5"
